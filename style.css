@@ -433,7 +433,7 @@ body {
 /* Media Queries */
 
 /* On Tablet */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     body {
         font-size: 13px;
     }

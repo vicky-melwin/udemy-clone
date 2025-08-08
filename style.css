@@ -255,6 +255,8 @@ body {
     padding-top: 20px;
 }
 
+/* Topics  */
+
 .topics {
     padding: 10px;
     margin: 10px;
@@ -317,7 +319,8 @@ body {
 
 .companies__logos {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -457,5 +460,8 @@ body {
     }
     .sale-image__offer{
         display: none;
+    }
+    .companies{
+        flex-wrap: wrap;
     }
 }

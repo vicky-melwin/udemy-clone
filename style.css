@@ -440,6 +440,13 @@ body {
     .sale-image__offer{
         display: none;
     }
+    .sale-image__offer{
+        display: block;
+        left: 20px;
+        top: 150px;
+        width: 250px;
+        height: fit-content;
+    }
 }
 
 /* On Mobile  */
@@ -459,9 +466,24 @@ body {
         display: block;
     }
     .sale-image__offer{
-        display: none;
+        display: block;
+        font-size: 8px;
+        left: 10px;
+        top: 70px;
+        width: 150px;
+        height: fit-content;
+        padding: 5px;
+        margin-top: 5px;
     }
-    .companies{
+    .sale-image__offer{
+        font-size: 8px;
+    }
+    .sale-image__button{
+        font-size: 8px;
+        height: 0;
+        padding-top: 15px;
+    }
+    /* .companies{
         flex-wrap: wrap;
-    }
+    } */
 }

@@ -478,10 +478,13 @@ body {
     .sale-image__offer{
         font-size: 8px;
     }
+    .sale-image__desc{
+        font-size: 8.1px;
+    }
     .sale-image__button{
         font-size: 8px;
         height: 0;
-        padding-top: 15px;
+        padding-top: 5px;
     }
     /* .companies{
         flex-wrap: wrap;
